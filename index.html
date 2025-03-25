@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Construction Project</title>
+    <link href="src/style.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <div class="relative">
+      <div class="bg-[#C3330F] flex justify-between px-7 items-center h-12">
+        <div>
+          <img src="All picture of construction/image 9.png" />
+        </div>
+        <div>
+          <ul
+            id="mobileMenu"
+            class="hidden absolute md:static md:flex gap-12 px-10 z-50 top-[50px] right-[5px] bg-[#C3330F] font-semibold text-white text-lg"
+          >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html"> About us</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="md:hidden">
+          <button id="menuToggle" class="nav-taggle">
+            <i class="fa-solid fa-bars text-3xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      <div
+        class="absolute flex justify-center md:justify-end items-center w-full h-full md:px-36"
+      >
+        <p class="w-96 text-white font-semibold text-5xl leading-[70px]">
+          Safe, Reliable & High Quality Construction
+        </p>
+      </div>
+      <div>
+        <img
+          class="w-full h-[575px]"
+          src="All picture of construction/image 8.png"
+        />
+      </div>
+    </div>
+
+    <div
+      class="container mx-auto flex flex-col md:flex-row justify-center md:justify-around items-center py-10 px-6 bg-[#F4F7F9]"
+    >
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        class="md:w-[50%] flex justify-center flex-wrap px-8 md:px-28 gap-16"
+      >
+        <img
+          class="w-[80%] md:w-auto"
+          src="All picture of construction/Screenshot 2024-10-15 at 15.32.32 1.png"
+        />
+
+        <div
+          class="w-[70%] md:w-auto space-y-2 bg-white p-8 md:p-2 shadow-[10px_10px_10px_gray]"
+        >
+          <img src="All picture of construction/cube.png" />
+          <p class="font-bold">Space Planning</p>
+          <p class="text-sm md:w-[200px] text-[#717275]">
+            Lorem ipsum dolor sit amet, quam felis adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div
+          class="w-[70%] md:w-auto space-y-2 bg-white p-8 md:p-2 shadow-[10px_10px_10px_gray]"
+        >
+          <img src="All picture of construction/geometric-shape.png" />
+          <p class="font-bold">Exterior Design</p>
+          <p class="text-sm md:w-[200px] text-[#717275]">
+            Lorem ipsum dolor sit amet, quam felis adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div
+          class="w-[70%] md:w-auto space-y-2 bg-white p-8 md:p-2 shadow-[10px_10px_10px_gray]"
+        >
+          <img src="All picture of construction/plastering.png" />
+          <p class="font-bold">General Contracting</p>
+          <p class="text-sm md:w-[200px] text-[#717275]">
+            Lorem ipsum dolor sit amet, quam felis adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+      </div>
+      <div
+        class="w-[80%] md:w-[50%] space-y-6 py-8"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        <p class="font-semibold text-3xl">
+          Comprehensive Solutions for Construction, Management, and Restoration
+        </p>
+        <p class="w-[85%]">
+          We are a well-established, independent building services company with
+          extensive experience in delivering high-quality home improvements and
+          construction projects. Our expertise spans a diverse range of
+          services, making us your go-to partner for any construction
+          need—whether it’s routine home maintenance, stunning extensions,
+          meticulous refurbishments, or brand-new builds.
+        </p>
+        <button class="bg-[#BDE3FF] px-3 py-1.5 rounded-md cursor-pointer">
+          View all services
+        </button>
+      </div>
+    </div>
+    <div
+      class="container mx-auto px-20 py-10 flex flex-col md:flex-row items-center"
+    >
+      <div
+        class="md:w-[50%] md:px-20 space-y-5"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <p class="text-[#62F11A] font-semibold">Expertise</p>
+        <p class="w-[80%] font-semibold text-3xl">Why choose us?</p>
+        <p class="w-[100%]">
+          With years of industry experience, we deliver top-notch results every
+          time. Our team works closely with you to tailor solutions that meet
+          your specific requirements and vision. Our skilled professionals are
+          dedicated to maintaining the highest standards of workmanship,
+          ensuring your complete
+        </p>
+      </div>
+      <div
+        class="md:w-[50%] flex justify-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <img
+          class="w-full md:w-[50%]"
+          src="All picture of construction/image 10.png"
+        />
+      </div>
+    </div>
+    <div
+      class="container mx-auto flex flex-col md:flex-row justify-center items-center gap-10"
+    >
+      <div
+        class="bg-[#0f1c2d] w-[70%] md:w-[15%] p-12 flex flex-col justify-center items-center"
+      >
+        <i class="fa-solid fa-users text-[30px] text-[#fd5d13] mb-4"></i>
+        <p class="counter text-2xl font-bold text-white">15,000+</p>
+        <p class="text-white text-xs">Happy Customers</p>
+      </div>
+      <div
+        class="bg-[#0f1c2d] w-[70%] md:w-[15%] p-12 flex flex-col justify-center items-center"
+      >
+        <i
+          class="fa-solid fa-diagram-project text-[30px] text-[#fd5d13] mb-4"
+        ></i>
+        <p class="counter text-2xl font-bold text-white">2,800+</p>
+        <p class="text-white text-xs">Projects Done</p>
+      </div>
+      <div
+        class="bg-[#0f1c2d] w-[70%] md:w-[15%] p-12 flex flex-col justify-center items-center"
+      >
+        <i class="fa-solid fa-user-gear text-[30px] text-[#fd5d13] mb-4"></i>
+        <p class="counter text-2xl font-bold text-white">750+</p>
+        <p class="text-white text-xs">Qualified Employees</p>
+      </div>
+      <div
+        class="bg-[#0f1c2d] w-[70%] md:w-[15%] p-12 flex flex-col justify-center items-center"
+      >
+        <i
+          class="fa-solid fa-network-wired text-[30px] text-[#fd5d13] mb-4"
+        ></i>
+        <p class="counter text-2xl font-bold text-white">88+</p>
+        <p class="text-white text-xs">Office Branches</p>
+      </div>
+    </div>
+    <div class="container mx-auto flex flex-col md:flex-row py-11 md:py-28">
+      <div
+        class="w-[100%] md:w-[50%] flex justify-center items-center"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <img
+          class="w-[80%] md:w-[55%]"
+          src="All picture of construction/image 11.png"
+        />
+      </div>
+      <div
+        class="md:w-[50%] px-20 py-5 md:p-5 space-y-4"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
+        <p class="text-[#FFC917] font-semibold">What We Offer</p>
+        <p class="font-semibold text-3xl">Company Profile</p>
+        <p class="md:w-[85%]">
+          We are a long-established, independent building services and home
+          improvements company. We have a wealth of experience working as main
+          building contractors on all kinds of projects, big and small, from
+          home maintenance and improvements to extensions, refurbishments and
+          new builds.
+        </p>
+        <button class="bg-[#fbe2c0] text-sm px-3 py-1 rounded-lg">
+          View More
+        </button>
+      </div>
+    </div>
+    <div class="flex items-center justify-center p-14">
+      <img
+        class="md:w-[70%] md:h-[110px]"
+        src="All picture of construction/Screenshot 2024-10-14 at 14.19.36 1.png"
+      />
+    </div>
+    <div class="flex flex-col justify-center items-center space-y-4">
+      <div>
+        <p class="font-semibold text-3xl">Recent Projects</p>
+      </div>
+      <div class="flex flex-col md:flex-row gap-7">
+        <img
+          class="w-[400px] h-[333px]"
+          src="All picture of construction/Screenshot 2024-10-14 at 14.46.45 1.png"
+        />
+        <img
+          class="w-[400px] h-[333px]"
+          src="All picture of construction/Screenshot 2024-10-14 at 14.47.22 1.png"
+        />
+        <img
+          class="w-[400px] h-[333px]"
+          src="All picture of construction/Screenshot 2024-10-14 at 14.45.58 1.png"
+        />
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center text-center px-11 md:px-32 py-16 space-y-9 ">
+      <div>
+        <p class="font-semibold text-3xl">Our Team</p>
+      </div>
+      <div class="w-[90%] md:w-[60%]">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide">
+            <img class="md:h-[310px] object-cover" src="All picture of construction/image 16.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="md:h-[270px] w-[500px] object-cover" src="All picture of construction/image 12.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="md:h-[310px] object-cover" src="All picture of construction/image 16.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="md:h-[270px] w-[500px] object-cover" src="All picture of construction/image 12.png" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+      <div class="md:w-[45%] mx-auto">
+        <p class="text-center text-lg">
+          <i class="fa-solid fa-quote-left"></i>Let us help you turn your
+          construction vision into reality. Contact us today to learn more about
+          our services and how we can assist you in achieving your project
+          goals<i class="fa-solid fa-quote-right"></i>
+        </p>
+      </div>
+    </div>
+    <div class="container mx-auto px-20 md:px-52 py-14 space-y-9">
+      <div>
+        <p class="text-xl leading-14">From the Blog</p>
+        <p class="font-semibold text-4xl">News Feed</p>
+      </div>
+      <div class="grid grid-cols-12">
+        <div
+          class="col-span-12 py-16 md:p-1 md:col-span-7 space-y-8"
+          data-aos="flip-left"
+        >
+          <img
+            class="w-[444px] h-[350px] shadow-[-18px_18px_0px_#fef3c7]"
+            src="All picture of construction/image 17.png"
+          />
+          <p class="font-semibold text-lg">August 29, 2024</p>
+          <p class="md:w-[60%] text-sm">
+            In a competitive market, our construction services shine through our
+            commitment to excellence and customer satisfaction. With a wealth of
+            experience, we tailor each project to your unique needs, ensuring
+            high-quality results that exceed expectations
+          </p>
+          <p class="font-bold text-[#C3330F]">Company, Industry</p>
+        </div>
+        <div
+          class="col-span-12 md:col-span-5 md:p-1 space-y-8"
+          data-aos="flip-right"
+        >
+          <img
+            class="w-[444px] h-[350px] shadow-[-18px_18px_0px_#fef3c7]"
+            src="All picture of construction/Screenshot 2024-10-16 at 14.28.34 1.png"
+          />
+          <p class="font-semibold text-lg">September 3. 2024</p>
+          <p class="md:w-[60%] text-sm">
+            Our dedicated team utilizes the latest technology and sustainable
+            practices, making your construction journey seamless and
+            environmentally friendly.
+          </p>
+          <p class="font-bold text-[#C3330F]">Company, Industry</p>
+        </div>
+      </div>
+      <div>
+        <button class="bg-[#fbe2c0] text-sm px-3 py-2 rounded-lg">
+          View more >
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-[#000000f3] flex flex-col md:flex-row gap-5 md:gap-0 justify-around p-5"
+    >
+      <div>
+        <img
+          src="All picture of construction/Screenshot 2025-01-30 161353.png"
+        />
+        <p class="text-white w-[360px]">
+          Dhaka Trade Center, suit-15G 99 Kazi Nazrul Islam Avenue Karwan Bazar,
+          Dhaka-1215 Bangladesh.jakir357@jhcbd.org...
+        </p>
+        <p class="text-white py-3">Follow us on Social Media</p>
+        <p class="flex gap-5">
+          <i class="fa-brands fa-facebook text-white"></i>
+          <i class="fa-brands fa-instagram text-white"></i>
+          <i class="fa-brands fa-youtube text-white"></i>
+        </p>
+      </div>
+      <div class="text-white flex flex-col gap-2.5">
+        <p class="font-bold">Links</p>
+        <p class="text-gray-500 text-sm">Home</p>
+        <p class="text-gray-500 text-sm">Services</p>
+        <p class="text-gray-500 text-sm">Contact</p>
+      </div>
+      <div>
+        <p class="text-white font-bold">Others</p>
+      </div>
+    </div>
+    <hr class="border-t-gray-600" />
+    <div class="bg-[#000000f3] text-gray-500 text-sm p-2 flex justify-center">
+      <p>
+        2024 <span class="font-semibold">DATADSS</span>. All rights Reserved
+      </p>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="src/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#menuToggle").click(function () {
+        $("#mobileMenu").toggleClass("hidden block");
+      });
+    });
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+  grabCursor: true,
+  centeredSlides: true,
+  loop: true,
+  spaceBetween: 6,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false
+  },
+  freeMode: true,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1, // 1 slide on small screens
+    },
+    640: {
+      slidesPerView: 2, // 2 slides on tablets
+    },
+    1024: {
+      slidesPerView: 3, // 3 slides on desktops
+    }
+  }
+});
+
+</script>
+</html>
